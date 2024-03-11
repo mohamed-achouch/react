@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+$color:green;
+
+.container {
+  width: 96%;
+  margin: auto;
+}
+.head {  
+    background-color: rgb(186, 207, 200);
+  .container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+  }
+  .logo {
+    font-size: 24px;
+    font-weight: 400;
+    color: green;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    li:hover{
+        color: $color;
+        cursor: pointer;
+    }
+  }
+}

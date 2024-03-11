@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 96%;
+  margin: auto;
+}
+
+.head {
+  background-color: rgb(186, 207, 200);
+}
+.head .container {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+.head .logo {
+  font-size: 24px;
+  font-weight: 400;
+  color: green;
+}
+.head ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.head ul li:hover {
+  color: green;
+  cursor: pointer;
+}
