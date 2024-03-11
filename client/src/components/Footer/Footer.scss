@@ -1,0 +1,12 @@
+$color :black;
+
+.footer{
+  color: $color;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+}
